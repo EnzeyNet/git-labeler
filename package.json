@@ -1,0 +1,29 @@
+{
+	"name": "git-labeler",
+	"description": "Labels git braches after a build",
+	"version": "0.0.1",
+	"author": {
+		"name": "Enzey",
+		"email": "enzey@enzey.net",
+		"url": "https://github.com/Xanir"
+	},
+	"scripts": {
+		"build": "babel src -d dist"
+	},
+	"macros": {
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"babel-polyfill": "^6.1.4",
+		"babel-preset-es2015": "6.6.0",
+		"babel-preset-stage-0": "^6.0.0",
+		"babel-plugin-transform-async-to-module-method": "6.7.0",
+		"co": "4.6.0",
+		"babel-cli": "6.6.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/EnzeyNet/git-labeler.git"
+	}
+}
